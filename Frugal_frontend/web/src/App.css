@@ -1,0 +1,13 @@
+
+.bc{
+    border: 2px solid red;
+}
+.input-hover-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .input-hover-effect:hover {
+    transform: perspective(500px) rotateX(5deg);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
