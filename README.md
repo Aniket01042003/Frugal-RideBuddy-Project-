@@ -4,11 +4,11 @@ Frugal RideBuddy is a city-based ride-sharing web application that helps users c
 Installation & Setup : 
 1. git clone https://github.com/Aniket01042003/Frugal-RideBuddy-Project-.git
    cd Frugal-RideBuddy-Project-
-2. a) backend : cd Frugal_backend
+2. backend : cd Frugal_backend
                 npm install
-   b) frontend : cd Frugal_frontend
+3. frontend : cd Frugal_frontend
                  npm install
-3. Create a .env file in Frugal_backend/ and add:
+4. Create a .env file in Frugal_backend/ and add:
      MONGO_URI=your_mongodb_uri
      JWT_SECRET=your_jwt_secret
      GOOGLE_CLIENT_ID=your_google_client_id
